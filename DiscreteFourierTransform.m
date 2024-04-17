@@ -1,4 +1,3 @@
-
 % Generate sinusoidal samples
 x1 = SinSamples(1, 2*pi*1000, pi/6, 2e-3, 2*pi*16000); % Sinusoid with phase shift
 X1 = Spectrum(x1, 512, 2*pi*16000); % Compute and plot spectrum
